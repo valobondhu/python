@@ -1,0 +1,5 @@
+#For running requirements file.
+pip install -r requirements.txt
+
+# For see insall package
+pip freeze

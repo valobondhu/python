@@ -1,0 +1,11 @@
+# Post data by terminal
+curl -X POST -H "Content-Type: application/json" \
+    -d '{"name": "quantum", "price": "50", "rate":"1"}' \
+    http://192.168.3.163:8000/game
+
+# Get data url
+http://192.168.3.163:8000/games
+
+# Get one data by id 
+http://192.168.3.163:8000/game/1
+
