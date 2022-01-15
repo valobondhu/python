@@ -3,7 +3,7 @@ import speech_recognition as sr
 import os 
 from pydub import AudioSegment
 from pydub.silence import split_on_silence
-path="/home/farjad/Downloads/speech_content_gurujee_ki_khele_mota_hobo_20211026.wav"
+path=".wav"
 
 # create a speech recognition object
 r = sr.Recognizer()
